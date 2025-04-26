@@ -89,7 +89,7 @@ const Home = ({ menuOpen }) => {
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
+                className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight pt-18"
               >
                 Build The Future With{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
@@ -159,7 +159,7 @@ const Home = ({ menuOpen }) => {
               style={{ y: imageY }}
               className="lg:w-1/2 mt-12 lg:mt-0"
             >
-              <div className="relative group">
+              <div className="relative group p-20">
                 {/* Glowing border effect */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-400/30 to-purple-500/30 blur-md group-hover:opacity-80 transition-opacity duration-500"></div>
 

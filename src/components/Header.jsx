@@ -32,14 +32,14 @@ const Header = ({ menuOpen, setMenuOpen }) => {
               </motion.span>
               <motion.span 
                 whileHover={{ scale: 1.05 }}
-                className="hidden sm:block text-2xl font-light text-gray-600 dark:text-gray-300 ml-2"
+                className=" text-2xl font-light text-gray-600 dark:text-gray-300 ml-2"
               >
                 TECHNOLOGIA
               </motion.span>
             </Link>
 
             {/* Desktop Navigation - unchanged */}
-            <nav className="hidden md:flex space-x-6 lg:space-x-8">
+            <nav className="hidden md:flex space-x-6 lg:space-x-8 mr-10">
               {navItems.map((item, index) => (
                 <motion.div
                   key={index}
