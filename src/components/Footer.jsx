@@ -39,7 +39,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li className="text-gray-300 dark:text-gray-700">F69a, Street no.2</li>
                 <li className="text-gray-300 dark:text-gray-700">Shakti Nagar, JAMMU (180001)</li>
-                <li className="text-gray-300 dark:text-gray-700">contact@trikortech.com (not working)</li>
+                <li className="text-gray-300 dark:text-gray-700">trikotecho752@gmail.com</li>
                 <li className="text-gray-300 dark:text-gray-700">+91 8716843110</li>
               </ul>
             </div>
